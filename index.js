@@ -11,7 +11,7 @@ app.use(cors())
 const persona_paths = require("./paths/persona.js")
 
 app.listen(5050, function(){
-    console.log("Escuchando en dicho puerto 5050")
+    console.log("Escuchando en dicho puerto 5051")
 })
 
 app.use("/api", persona_paths.router)
